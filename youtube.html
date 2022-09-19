@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Youtube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/genercal.css">
+    <link rel="stylesheet" href="./styles/video.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/sidebar.css">
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="./icons/hamburger-menu.svg" alt="">
+        <img class="youtube-logo" src="./icons/youtube-logo.svg" alt="">
+      </div>
+      <div class="middle-section">   
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button"><img class="search-icon" src="./icons/search.svg" alt="">
+        <div class="tooltip">
+          Search
+        </div></button>
+        <button class="voice-search-button"><img class="voice-search-icon" src="./icons/voice-search-icon.svg" alt="">
+          <div class="tooltip">
+            Search with your voice
+          </div></button>
+      </div>
+      <div class="right-section"> 
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="./icons/upload.svg" alt="">
+          <div class="tooltip">
+            Create
+          </div>
+        </div>
+          <div class="youtube-apps-container">
+        <img class="youtube-apps-icons" src="./icons/youtube-apps.svg" alt="">
+        <div class="tooltip">
+          YouTube apps
+        </div>  
+          </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="./icons/notifications.svg" alt="">
+          <div class="tooltip">
+            Notifications
+          </div>  
+          <div class="notifcations-count">3</div>
+        </div>
+          <img class="current-user-picture" src="./channel_pictures/my-channel.jpg" alt="">
+
+      </div>
+
+      <div class="sidebar">
+        <div class="sidebar-link">
+          <img src="./icons/home.svg" alt="">
+          <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="./icons/explore.svg" alt="">
+          <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="./icons/subscriptions.svg" alt="">
+          <div>Subcsriptions</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="./icons/originals.svg" alt="">
+          <div>Orginals</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="./icons/youtube-music.svg" alt="">
+          <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="./icons/library.svg" alt="">
+          <div>Library</div>
+        </div>
+      </div>
+  
+    </div>
+    
+<div class="video-grid">
+    <div class="video-preview">
+      <div class="thumbnail_row">
+     
+        <img
+          class="thumbnail"
+          src="/thumbnail_images/thumbnail-1.webp"
+          alt="image 1"
+        />
+        <div class="video-time">
+          14:20
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel_picture">
+          <img
+            class="profile_picture"
+            src="./channel_pictures/channel-1.jpeg"
+            alt="profile_picture"
+          />
+        </div>
+        <div class="video_info">
+          <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+          <p class="video-author">Marques Brownlee</p>
+          <p class="video-stats">3.4M views &#8226; 6 months ago</p>
+
+
+        </div>
+      </div>
+    </div>
+   <div class="video-preview">
+    <div class="thumbnail_row">
+      <img
+        class="thumbnail"
+        src="/thumbnail_images/thumbnail-2.webp"
+        alt="image 1"
+      />
+      <div class="video-time">
+        14:20
+      </div>
+    </div>
+    <div class="video-info-grid">
+      <div class="channel_picture">
+        <img
+          class="profile_picture"
+          src="./channel_pictures/channel-2.jpeg"
+          alt="profile_picture"
+        />
+      </div>
+      <div class="video_info">
+        <p class="video-title">Try Not To Laugh Challenge #9</p>
+        <p class="video-author">Markiplier</p>
+        <p class="video-stats">19M views &#8226; 4 years ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="video-preview">
+    <div class="thumbnail_row">
+      <img
+        class="thumbnail"
+        src="/thumbnail_images/thumbnail-3.webp"
+        alt="image 1"
+      />
+      <div class="video-time">
+        6:56
+      </div>
+    </div>
+    <div class="video-info-grid">
+      <div class="channel_picture">
+        <img
+          class="profile_picture"
+          src="./channel_pictures/channel-3.jpg"
+          alt="profile_picture"
+        />
+        
+      </div>
+      <div class="video_info">
+        <p class="video-title">
+          Stop wasting time when you're learning to code!
+        </p>
+        <p class="video-author">Coder Coder</p>
+        <p class="video-stats">1.1M views &#8226; 11 months ago</p>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="video-preview">
+    <div class="thumbnail_row">
+      <img
+        class="thumbnail"
+        src="/thumbnail_images/thumbnail-4.webp"
+        alt="image 1"
+      />
+      <div class="video-time">
+        20:06
+      </div>
+    </div>
+    <div class="video-info-grid">
+      <div class="channel_picture">
+        <img
+          class="profile_picture"
+          src="./channel_pictures/channel-4.jpg"
+          alt="profile_picture"
+        />
+      </div>
+      <div class="video_info">
+        <p class="video-title">
+          Why Your Lie In April Is a Masterpiece
+        </p>
+        <p class="video-author">LuxDiablo</p>
+        <p class="video-stats">17K views &#8226; 8 months ago</p>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="video-preview">
+    <div class="thumbnail_row">
+      <img
+        class="thumbnail"
+        src="/thumbnail_images/thumbnail-5.webp"
+        alt="image 1"
+      />
+      <div class="video-time">
+        6:31:24
+      </div>
+    </div>
+    <div class="video-info-grid">
+      <div class="channel_picture">
+        <img
+          class="profile_picture"
+          src="./channel_pictures/channel-5.jpg"
+          alt="profile_picture"
+        />
+      </div>
+      <div class="video_info">
+        <p class="video-title">
+          HTML & CSS Full Course - Beginner to Pro (2022)
+        </p>
+        <p class="video-author">SuperSimpleDev</p>
+        <p class="video-stats">1.7M views &#8226; 7 months ago</p>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="video-preview">
+    <div class="thumbnail_row">
+      <img
+        class="thumbnail"
+        src="/thumbnail_images/thumbnail-6.webp"
+        alt="image 1"
+      />
+      <div class="video-time">
+        6:49
+      </div>
+    </div>
+    <div class="video-info-grid">
+      <div class="channel_picture">
+        <img
+          class="profile_picture"
+          src="./channel_pictures/channel-6.jpg"
+          alt="profile_picture"
+        />
+      </div>
+      <div class="video_info">
+        <p class="video-title">
+          Cat Bathing
+        </p>
+        <p class="video-author">MeowMeow </p>
+        <p class="video-stats">1.3M views &#8226; 2 months ago</p>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="video-preview">
+    <div class="thumbnail_row">
+      <img
+        class="thumbnail"
+        src="/thumbnail_images/thumbnail-7.webp"
+        alt="image 1"
+      />
+      <div class="video-time">
+        17:18
+      </div>
+    </div>
+    <div class="video-info-grid">
+      <div class="channel_picture">
+        <img
+          class="profile_picture"
+          src="./channel_pictures/channel-7.jpg"
+          alt="profile_picture"
+        />
+      </div>
+      <div class="video_info">
+        <p class="video-title">
+          SNEAKO: The Documentary
+        </p>
+        <p class="video-author">SNEAKO </p>
+        <p class="video-stats">889K views &#8226; 2 years ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="video-preview">
+    <div class="thumbnail_row">
+      <img
+        class="thumbnail"
+        src="/thumbnail_images/thumbnail-9.webp"
+        alt="image 1"
+      />
+      <div class="video-time">
+        32:49
+      </div>
+    </div>
+    <div class="video-info-grid">
+      <div class="channel_picture">
+        <img
+          class="profile_picture"
+          src="./channel_pictures/channel-9.jpg"
+          alt="profile_picture"
+        />
+      </div>
+      <div class="video_info">
+        <p class="video-title">
+          ODA is INSANE Discussion & Thoughts
+        </p>
+        <p class="video-author">JoyBoy </p>
+        <p class="video-stats">58.3K views &#8226; 4 months ago</p>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+
+  </body>
+</html>
